@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from KMeans_and_PCA.KMeans.ComputeCentroids import compute_centroids
-from KMeans_and_PCA.KMeans.FindClosestCentroids import find_closest_centroids
-from KMeans_and_PCA.KMeans.RunKmeans import run_k_means
+
 from scipy.io import loadmat
 
-from KMeans_and_PCA.KMeans.InitCentroids import init_centroids
+from Python.KMeans_and_PCA.KMeans.ComputeCentroids import compute_centroids
+from Python.KMeans_and_PCA.KMeans.FindClosestCentroids import find_closest_centroids
+from Python.KMeans_and_PCA.KMeans.RunKmeans import run_k_means
+from Python.KMeans_and_PCA.KMeans.InitCentroids import init_centroids
 
 # ----------------------- Load data ------------------------------------
 data = loadmat('ex7data2.mat')

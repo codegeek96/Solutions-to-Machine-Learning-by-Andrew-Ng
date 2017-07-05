@@ -1,5 +1,4 @@
 from scipy.io import loadmat
-
 from sklearn import svm
 
 

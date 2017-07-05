@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import scipy.optimize as opt
 
-from LogisticRegression.Regularized.MapFeatures import map_features
-from LogisticRegression.Regularized.CostReg import cost_reg
-from LogisticRegression.Regularized.GradientReg import gradient_reg
-from LogisticRegression.Predict import predict
+from Python.LogisticRegression.Regularized.MapFeatures import map_features
+from Python.LogisticRegression.Regularized.CostReg import cost_reg
+from Python.LogisticRegression.Regularized.GradientReg import gradient_reg
+from Python.LogisticRegression.Predict import predict
 
 
 # ----------------------- Load data ------------------------------------

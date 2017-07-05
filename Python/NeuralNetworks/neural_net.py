@@ -4,8 +4,8 @@ from scipy.io import loadmat
 from sklearn.preprocessing import OneHotEncoder
 from scipy.optimize import minimize
 
-from NeuralNetworks.BackPropagation import back_propagation
-from NeuralNetworks.ForwardPropagate import forward_propagate
+from Python.NeuralNetworks.BackPropagation import back_propagation
+from Python.NeuralNetworks.ForwardPropagate import forward_propagate
 
 
 # Load data

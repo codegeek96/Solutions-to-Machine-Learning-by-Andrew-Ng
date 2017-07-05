@@ -1,6 +1,6 @@
 import numpy as np
 
-from NeuralNetworks.Sigmoid import sigmoid
+from Python.NeuralNetworks.Sigmoid import sigmoid
 
 
 def forward_propagate(X, theta1, theta2):

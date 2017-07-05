@@ -1,7 +1,7 @@
 import numpy as np
-from KMeans_and_PCA.KMeans.FindClosestCentroids import find_closest_centroids
+from Python.KMeans_and_PCA.KMeans.FindClosestCentroids import find_closest_centroids
 
-from KMeans_and_PCA.KMeans.ComputeCentroids import compute_centroids
+from Python.KMeans_and_PCA.KMeans.ComputeCentroids import compute_centroids
 
 
 def run_k_means(X, initial_centroids, max_iters):

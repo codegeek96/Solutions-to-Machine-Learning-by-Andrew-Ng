@@ -2,8 +2,8 @@ import numpy as np
 
 from scipy.optimize import minimize
 
-from LogisticRegression.Regularized.CostReg import cost_reg
-from LogisticRegression.Regularized.GradientReg import gradient_reg
+from Python.LogisticRegression.Regularized.CostReg import cost_reg
+from Python.LogisticRegression.Regularized.GradientReg import gradient_reg
 
 
 def one_vs_all(X, y, num_labels, learning_rate):

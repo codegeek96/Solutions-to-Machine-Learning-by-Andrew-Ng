@@ -1,7 +1,7 @@
 import numpy as np
 
-from NeuralNetworks.ForwardPropagate import forward_propagate
-from NeuralNetworks.SigmoidGradient import sigmoid_gradient
+from Python.NeuralNetworks.ForwardPropagate import forward_propagate
+from Python.NeuralNetworks.SigmoidGradient import sigmoid_gradient
 
 
 def back_propagation(params, input_size, hidden_size, num_labels, X, y, learning_rate):

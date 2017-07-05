@@ -1,6 +1,6 @@
 import numpy as np
 
-from LogisticRegression.Sigmoid import sigmoid
+from Python.LogisticRegression.Sigmoid import sigmoid
 
 
 def gradient(theta, X, y):

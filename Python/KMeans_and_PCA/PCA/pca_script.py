@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 from scipy.io import loadmat
 
-from KMeans_and_PCA.PCA.RunPCA import pca
-from KMeans_and_PCA.PCA.ProjectData import project_data
-from KMeans_and_PCA.PCA.RecoverData import recover_data
+from Python.KMeans_and_PCA.PCA.RunPCA import pca
+from Python.KMeans_and_PCA.PCA.ProjectData import project_data
+from Python.KMeans_and_PCA.PCA.RecoverData import recover_data
 
 
 # ----------------------- Load data ------------------------------------

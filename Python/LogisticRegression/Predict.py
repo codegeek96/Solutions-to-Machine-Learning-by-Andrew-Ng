@@ -1,4 +1,4 @@
-from LogisticRegression.Sigmoid import sigmoid
+from Python.LogisticRegression.Sigmoid import sigmoid
 
 
 def predict(theta, X):

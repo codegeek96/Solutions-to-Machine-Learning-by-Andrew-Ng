@@ -1,6 +1,6 @@
 import numpy as np
-from scipy.io import loadmat
 
+from scipy.io import loadmat
 from sklearn import svm
 
 

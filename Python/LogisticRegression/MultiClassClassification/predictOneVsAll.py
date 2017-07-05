@@ -1,6 +1,6 @@
 import numpy as np
 
-from LogisticRegression.Sigmoid import sigmoid
+from Python.LogisticRegression.Sigmoid import sigmoid
 
 
 def predict_one_vs_all(all_theta, X):

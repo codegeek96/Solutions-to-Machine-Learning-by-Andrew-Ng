@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import scipy.optimize as opt
 
-from LogisticRegression.OneVariable.Cost import cost_function
-from LogisticRegression.OneVariable.Gradient import gradient
-from LogisticRegression.Predict import predict
-from LogisticRegression.Sigmoid import sigmoid
+from Python.LogisticRegression.OneVariable.Cost import cost_function
+from Python.LogisticRegression.OneVariable.Gradient import gradient
+from Python.LogisticRegression.Predict import predict
+from Python.LogisticRegression.Sigmoid import sigmoid
 
 # ----------------------- Load data ------------------------------------
 data = pd.read_csv('ex2data1.txt', header=None, names=['Exam 1', 'Exam 2', 'Admitted'])

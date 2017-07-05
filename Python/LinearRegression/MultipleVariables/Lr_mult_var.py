@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from LinearRegression.MultipleVariables.GradientDescent import gradient_descent
+from Python.LinearRegression.MultipleVariables.GradientDescent import gradient_descent
 
-from LinearRegression.MultipleVariables.ComputeCost import compute_cost
+from Python.LinearRegression.MultipleVariables.ComputeCost import compute_cost
 
 # ----------------------- Load data ------------------------------------
 data = pd.read_csv('ex1data2.txt', header=None, names=['Size', 'Bedrooms', 'Price'])

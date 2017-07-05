@@ -1,11 +1,9 @@
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 
 from scipy.io import loadmat
 
-from LogisticRegression.MultiClassClassification.oneVsAll import one_vs_all
-from LogisticRegression.MultiClassClassification.predictOneVsAll import predict_one_vs_all
+from Python.LogisticRegression.MultiClassClassification.oneVsAll import one_vs_all
+from Python.LogisticRegression.MultiClassClassification.predictOneVsAll import predict_one_vs_all
 
 
 # ----------------------- Load data ------------------------------------

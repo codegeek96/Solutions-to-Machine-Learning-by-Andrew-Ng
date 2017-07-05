@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy.io import loadmat
 
+from scipy.io import loadmat
 from sklearn import svm
 
 
